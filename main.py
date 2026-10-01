@@ -30,7 +30,7 @@ num_samples_cal = Y_cal.shape[0]
 
 X_sof = np.load("X-68-SoF.npy")
 Y_sof = np.load("y-68-SoF.npy")
-num_samples_sof = Y_sof[0]
+num_samples_sof = Y_sof.shape[0]
 # <END LOAD DATA>
 
 
